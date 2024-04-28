@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation Form</title>
+    <link rel="icon"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAgVBMVEX///8AAAAICAgEBAT8/PwYGBj5+fkKCgrw8PDu7u7U1NTCwsKmpqYRERErKyv19fVfX1+YmJiEhIQbGxtBQUHJycmKiorb29tzc3Pm5uYjIyOxsbFGRkZtbW0wMDDg4OBNTU2urq7Ozs5VVVU8PDx7e3tiYmKRkZG8vLyenp42NjZyQ7eGAAAHPklEQVR4nO2c63qiMBCGRayigqL1rPVUban3f4FrEUhCZiAQAnSfeX/tWsUZhPnmkNDpEARBEARBEARBEARBEARBEI0zHDdtQTWsd4P/wpOxZ1mDZdNW6ON2rSfeqGk7dJlbL97WTVuiRe/Link/NW2MBs7BYuy2TZtTmtPE4pn8VU+ub5bIcdi0SaXYD9hvEbn0cJo2qgTf7JdYOCPv9a/btGmzitL7YH589judZfTzHPpNW1aM6Zn5sQlfCbqv/517DZtWiO2D+fEdvba3o9/nD3ky2iVudC/Jq2700leDlhUj8BI/PD7t/Yle/GjMsmL82EzMxVQxDmT3hiwrxp0TwLSUxxnkvBHLCtH3mR8HWf42qQjQWoY35ocPhadYXma1m1aINZclIjdCnA+79VpWjCXLEm3klCeRwL7Ab2gDl27ix2APv2XOfrFua8v4FTPyDTaST8DgW6gF8Ebu4PqcT8CiDKx9TLmi9gHXT3xEs1Y126fK9shsPMM1B1/32j8129c7jS+z1Xy++naDdcY1fX1nRn7B7+Pr3m6tEWs0848sDP2exon/DbfZAlbUYtkH/xavvgZqf++nGwdxPPraS2d8xrJE7Jpxbe4QV9Pmx4w+PMAFdkI34u+yYX8aBPARuciMhbTqCRZZXrw4sIuj/5l7rgX5kDJiU248JKtBFpHk8TF1AjdFeVetWz0NofVZshjF/z21a1bUWjcF+UBCc8X0Vl3J3Ay8WTj6iPmEGz1C27SetOR0k2zN4cY5/pEvHzWlJfvMUJUHknIEXv57qsJ5hZE5aqMCXaRM4uXDdFoyfEyGwkCmBJ6CfHSRCqUqts978ej0C0QrmXc4cRHkw3RacgrD503LD2R+I8iH6bSEl4GyLGCJE+TDdFoyQjLDIqjIh+m05KoVcF8g0jDiChTjacm4Aj+QjqEgH6bTEr7UKQlW6bl8qmM6LdnHX2ZDJiqBhVRePoynJZfY/vu47C+zU5AP492SpHP5/KKSniChSJAP492SWfxFYY4UFMreI4CZwS8OLx+m05LkIo47tPvi94kPy8eWlw/j3ZK79EVuUU+QmYEgH9WwwxcVxV0PPtf7yTxYGmxmUIUySbxj6U0cVERXZ5kHE8FmBm6Zey2fNzA69uIZX7rT/J15MOHAyGBjlf/RcnjAFybB8SDlDap2YJnsJv+jZZGjRlJAQTnrPfNgMQ8F+aicdAdzGjcR4fUgKucUyQAdhfakDilFSgpBZMnnR9axQpCZwXaS+0lNbKG9MUrCI7LkM68FgcwMDMiHjBDyWSkFL/ns+VmHwjInI/IhI9Q+yyRBhFsGvYx7FpsZXMzIh4xwPbBUF17yiTeGsEaIugBpI9Q2LNWFl3z2D/BBkJmBSfmQEVZ6MU/gJZ9TsJeNzAzMyoeMUDezpB1e8ukAsx6k6WNaPmR8/utZ0n6GPTmmP47MDLbSG80j1M5u8jIs8cNJxocZtchHmoFwjbOk3QdN3PKtVGxmUJN8pBETSBYz4cWrnCfYzKA2+RCxU/rHknZ48eopvmyQmUGd8iEgmcsmVHD9vX41uFshHxwPKTw57I9wKhhmmMjMoJ+Zk5n0A5AzrnECt6KfGWZr5CP2Azqv/GwE7ooskaZPE/IRAs8nBK0o0tocVTDmKsUCrk6Fy6PA4tWG5APql7wQ61pbtU3bkHxg6VRHasl1Ed1L0ZR84H50xql3Ku1wVmsZKQNFDXsFjWiR+PmLk35v/g5nHflwgcrF78kLR553KzBsztzPJJUdXs5U30GKRxVmwCqRX+vSnoRtH8mT7DmkfJnA7eIYHfkIk4dU2+x1lsVObdS+SnmCdNNi0jeJlb1XW2eVxAY4dfHdy4ePpA0neJK3u6wPzA7xvdo68pFYwp1+VmYzT7h2IudJ/t4y6NbF9mpfNKby3B7KJObzKp28yFdwiScK8+0A+tYJ2C4pMgdKs+AjZ9QvEBs4M9mPxBOlHXLgVQ817nTk4yhmeuFChXQWG07+0vleWBGp7fSDl/9JubJW9bFLn5dgkPbt5Ymctz49UdznN4Qv/FTjbqohH1D0WC6A39yF8u+18i4/pGAVGnda1UddTxHZIqksl6FpLbKr77ku2IwqyW2WOtWHYkZdBUPMzqhxt9da1FXnxh10yUOop7Pyi7msurexotssNsXkw2764UAj9OK5F5KP5nfb62QfjLcWPLulkqFTG7YQOxX0qeDpRN2stRdkT1ryAJqr5hJgrzUPASu1PDOhRgHPRWdZdrueFVC+JLdb9vSGa8kRLbZCpTmGpeqnXW07iNXplajMoWKvBQQFpXHQ2gfO9O9F8vZDa+QDYKS8AW5iegW/LlclV46Xlj7WhOea/YSBp5T7f+Wxt333gCYt3qfbkhRRjX6wOUrOvJ/n4z9wSUn01vvV5uvzsDh/+puVu2ynaBAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQZjjH75Pa3YwaNYHAAAAAElFTkSuQmCC">
+</head>
+<style>
+    /* styles.css */
+    input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    .container {
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+
+    #message {
+        display: none;
+        background: #f1f1f1;
+        color: #000;
+        position: relative;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .valid {
+        color: green;
+    }
+
+    .valid:before {
+        position: relative;
+        left: -35px;
+        content: "\u2713";
+        /* Checkmark symbol */
+    }
+
+    .invalid {
+        color: red;
+    }
+
+    .invalid:before {
+        position: relative;
+        left: -35px;
+        content: "\u2716";
+        /* Cross symbol */
+    }
+</style>
+
+<body>
+    <div class="container">
+        <form action="google.html">
+            <label for="usrname">Username</label>
+            <input type="text" id="usrname" name="usrname" value="RealUsername">
+            <label for="psw">Password</label>
+            <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-zA-Z]).{8,}"
+                title="Must contain at least one number, one letter, and at least 8 characters" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">At least one <b>letter</b></p>
+        <p id="number" class="invalid">At least one <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+    </div>
+    <script>
+        // Define the real username and password
+        var realUsername = "RealUsername"; // Replace "RealUsername" with the actual username
+        var realPassword = "RealPassword"; // Replace "RealPassword" with the actual password
+
+        // Function to check the credentials and redirect if correct
+        function checkCredentialsAndRedirect(username, password) {
+            if (username === realUsername && password === realPassword) {
+                // Redirect to another website if the credentials are correct
+                window.location.href = "https://www.example.com"; // Replace "https://www.example.com" with the actual URL you want to redirect to
+            } else {
+                // Display an error message if the credentials are incorrect
+                alert("Incorrect username or password.");
+            }
+        }
+
+        // Example usage
+        // Call the function with the username and password to check
+        // Replace "UserInputUsername" and "UserInputPassword" with the actual user input
+        checkCredentialsAndRedirect("UserInputUsername", "UserInputPassword");
+
+
+
+    </script>
+</body>
+
+</html>
